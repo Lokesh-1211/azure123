@@ -12,12 +12,7 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>5.0.2.RELEASE</version>
 		</dependency>
-		<dependency>
-	<groupId>org.springframework</groupId>
-	<artifactId>spring-webmvc</artifactId>
-	<version>5.1.0.RELEASE</version>
-</dependency>
-<!-- Thanks for using https://jar-download.com -->
+	<!-- Thanks for using https://jar-download.com -->
 		<!-- spring jdbc dependency -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -30,14 +25,14 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>6.0.6</version>
 		</dependency>
-					<dependency>
+	<dependency>
 		    <groupId>javax.servlet</groupId>
 		    <artifactId>javax.servlet-api</artifactId>
 		    <scope>provided</scope>
 		</dependency>
 		<dependency>
         	<groupId>org.springframework.boot</groupId>
-	        <artifactId>spring-boot-starter-undertow</artifactId>
+	        <artifactId>spring-boot-starter-ndertow</artifactId>
 	        <scope>provided</scope>
 	    </dependency>
 <dependency>
@@ -86,7 +81,7 @@
 			</plugin>
 			<plugin>
 				<artifactId>maven-war-plugin</artifactId>
-				<version>3.0.0</version>
+				<version>3.2.2</version>
 				<configuration>
 					<warSourceDirectory>WebContent</warSourceDirectory>
 				</configuration>
